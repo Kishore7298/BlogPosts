@@ -23,7 +23,6 @@ class PostList extends React.Component {
         });
     }
     render(){
-        console.log(this.props.posts)
         return (
             <div className="ui releaxed divided list">
                 {this.renderList()}
